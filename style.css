@@ -1,9 +1,8 @@
-div.flex-wrapper {
+div.flex-wrapper.first {
     display:flex;
     flex-direction: column;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Roboto';
     background:#1f2937;
-    /* align-items: center; */
 }
 
 nav {
@@ -92,4 +91,117 @@ div.hero.image {
     padding:10px;
     border-radius: 10px;
     border:#3882f6
+}
+
+div.flex-wrapper.second {
+    display: flex;
+    font-family: "Roboto";
+    flex-direction:column;
+}
+
+div.header.second {
+    font-size:36px;
+    font-weight:900;
+    color:#1f2937;
+    align-self: center;
+    padding-top:50px;
+}
+
+div.boxes{
+    display:flex;
+    justify-content:center;
+    padding-bottom:100px;
+}
+
+.box {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.box div {
+    width:100px;
+    height:100px;
+    border:5px solid #3882f6;
+    border-radius:10px;
+}
+
+.box p {
+    max-width:200px;
+    text-align:center;
+}
+
+.quote {
+    display:flex;
+    background:#e5e7eb;
+    justify-content:center;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+.text-box {
+    flex-basis:800px;
+}
+
+.body-text{
+    font-style:italic;
+    font-size:36px;
+    font-weight: 200;
+}
+
+.name-tag {
+    text-align:right;
+    font-size:28px;
+}
+
+.call-to-action {
+    display:flex;
+    justify-content:center;
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+.high-box {
+    display:flex;
+    background:#3882f6;
+    border-radius:15px;
+    flex-basis:900px;
+    justify-content: space-evenly;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+
+.high-box .text-box {
+    color:#e5e7eb;
+    flex-basis:500px;
+}
+
+.high-box .text-box .heading {
+    font-size:24px;
+    font-weight:800;
+    margin-bottom:0px;
+}
+
+.high-box .text-box .text {
+    margin-top:0px;
+}
+
+.high-box button {
+    flex-basis:130px;
+    padding:0px;
+    min-height:40px;
+    align-self: center;
+    border: 2px solid #e5e7eb;
+    background:#3882f6;
+    color:#e5e7eb;
+    border-radius:5px;
+}
+
+.copyright-ribbon {
+    background:#1f2937;
+    display:flex;
+    justify-content:center;
+    font-family:"Roboto";
+    color:#e5e7eb;
+    padding:20px;
 }
